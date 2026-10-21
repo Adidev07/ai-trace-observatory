@@ -1,0 +1,21 @@
+test_health (test_http.HTTPTests.test_health) ... 127.0.0.1 - - [21/Oct/2026 12:14:22] "GET /api/health HTTP/1.1" 200 -
+ok
+test_home (test_http.HTTPTests.test_home) ... 127.0.0.1 - - [21/Oct/2026 12:14:22] "GET / HTTP/1.1" 200 -
+ok
+test_invalid_json (test_http.HTTPTests.test_invalid_json) ... 127.0.0.1 - - [21/Oct/2026 12:14:22] "POST /api/run HTTP/1.1" 400 -
+ok
+test_not_found (test_http.HTTPTests.test_not_found) ... 127.0.0.1 - - [21/Oct/2026 12:14:22] "GET /missing HTTP/1.1" 404 -
+ok
+test_object_required (test_http.HTTPTests.test_object_required) ... 127.0.0.1 - - [21/Oct/2026 12:14:22] "POST /api/run HTTP/1.1" 400 -
+ok
+test_success (test_http.HTTPTests.test_success) ... 127.0.0.1 - - [21/Oct/2026 12:14:22] "POST /api/run HTTP/1.1" 200 -
+ok
+test_aggregates (test_logic.LogicTests.test_aggregates) ... ok
+test_empty (test_logic.LogicTests.test_empty) ... ok
+test_filter (test_logic.LogicTests.test_filter) ... ok
+test_threshold (test_logic.LogicTests.test_threshold) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.259s
+
+OK

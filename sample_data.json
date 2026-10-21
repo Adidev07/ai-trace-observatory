@@ -1,0 +1,42 @@
+[
+  {
+    "trace_id": "trace-001",
+    "model": "demo-small",
+    "latency_ms": 320,
+    "status": "ok",
+    "input_tokens": 200,
+    "output_tokens": 80,
+    "input_usd_per_million": 1,
+    "output_usd_per_million": 2
+  },
+  {
+    "trace_id": "trace-002",
+    "model": "demo-small",
+    "latency_ms": 740,
+    "status": "ok",
+    "input_tokens": 400,
+    "output_tokens": 160,
+    "input_usd_per_million": 1,
+    "output_usd_per_million": 2
+  },
+  {
+    "trace_id": "trace-003",
+    "model": "demo-large",
+    "latency_ms": 2400,
+    "status": "ok",
+    "input_tokens": 900,
+    "output_tokens": 300,
+    "input_usd_per_million": 3,
+    "output_usd_per_million": 6
+  },
+  {
+    "trace_id": "trace-004",
+    "model": "demo-large",
+    "latency_ms": 3000,
+    "status": "timeout",
+    "input_tokens": 100,
+    "output_tokens": 0,
+    "input_usd_per_million": 3,
+    "output_usd_per_million": 6
+  }
+]
